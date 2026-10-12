@@ -1,0 +1,22 @@
+# Тяжёлые файлы хранятся через Git LFS (см. docs/КАК_ВЕСТИ_РЕПОЗИТОРИЙ.md)
+
+# КОМПАС-3D
+*.m3d filter=lfs diff=lfs merge=lfs -text
+*.a3d filter=lfs diff=lfs merge=lfs -text
+*.cdw filter=lfs diff=lfs merge=lfs -text
+*.frw filter=lfs diff=lfs merge=lfs -text
+# SolidWorks
+*.sldprt filter=lfs diff=lfs merge=lfs -text
+*.sldasm filter=lfs diff=lfs merge=lfs -text
+*.slddrw filter=lfs diff=lfs merge=lfs -text
+# T-FLEX CAD
+*.grb filter=lfs diff=lfs merge=lfs -text
+# Обменные форматы
+*.step filter=lfs diff=lfs merge=lfs -text
+*.stp filter=lfs diff=lfs merge=lfs -text
+*.stl filter=lfs diff=lfs merge=lfs -text
+# Видео и архивы
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.7z filter=lfs diff=lfs merge=lfs -text

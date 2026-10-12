@@ -1,0 +1,55 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- C / C++ / CMake ---
+build/
+cmake-build-*/
+*.o
+*.obj
+*.exe
+*.out
+
+# --- ROS / ROS 2 ---
+install/
+log/
+devel/
+
+# --- Arduino / PlatformIO ---
+.pio/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.pro.user
+*.user
+
+# --- MATLAB / Simulink ---
+*.asv
+slprj/
+*.slxc
+
+# --- КОМПАС-3D ---
+*.bak
+*.cdw.bak
+*.m3d.bak
+*.a3d.bak
+
+# --- SolidWorks ---
+~$*
+
+# --- T-FLEX CAD ---
+*.grb.bak
+
+# --- Microsoft Office ---
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# --- Системные ---
+.DS_Store
+Thumbs.db
+desktop.ini
